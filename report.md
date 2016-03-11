@@ -27,6 +27,7 @@ A matrix will be solved by SOR method when it is positive definite, otherwise it
 
 ## Zero elements in $\Sigma$
 Q: How many non zero element in $\Sigma$?
+
 A: All the elements in the three red, green and blue $\Sigma$ are non zero elements.
 
 ### Generating pictures from `task2.py`
