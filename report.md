@@ -37,6 +37,7 @@ A: All the elements in the three red, green and blue $\Sigma$ are non zero eleme
 ##resolution of 200
 
 We will read the rainbow.jpeg into img where it contain 3 matrices, which is j,k and m. Each j,k and m is a 3 dimensions matrix. 
+Then we make each matrix into U, $\Sigma$ and V which is j1,j2,j3
 
 # What is a sparse matrix?
 A sparse matrix is a matrix which most of the elements are zero. On the other hand, a matrix is called dense where most of the elements are non zero. In this task, after we keep the first 30 non zero elements and set other elements to be zero, when the dimension of $\Sigma$ is converted to (800,1000) which created a sparse matrix of (800,1000) dimension matrix. This matrix is used for dot multiplication as mention above. Because the sparse matrix most elements is zero, this eventually help to make the lower resolution pictures.
