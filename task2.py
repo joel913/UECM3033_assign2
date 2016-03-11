@@ -62,10 +62,7 @@ ax3.imshow(k, cmap = 'Reds')
 ax4.imshow(m, cmap = 'Greens')
 plt.show()
 
-
-#keep the first n none zero elements in sigma.input n into image_svd.
-#image_svd(30)
-
+image_svd(30)
 
 image_svd(200)
 
