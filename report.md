@@ -14,7 +14,8 @@ The reports, codes and supporting documents are uploaded to Github at:
 
 ### Selection criteria ( LU or SOR )
 
-In order to choose SOR method, the matrix A must be a positive definite and tridiagonal matrix. If it is not, then LU factorization is the only choice.
+The use of condition is to check whether the matrix is positive definite.
+A matrix will be solved by SOR method when it is positive definite, otherwise it will be solved by LU method.
 
 ### Implementation for `task1.py`
 
